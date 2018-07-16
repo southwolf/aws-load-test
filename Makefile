@@ -9,4 +9,5 @@ build: clean
 clean:
 	rm -rf ./aws-load-test
 
-
+push:
+	docker push $(img)
